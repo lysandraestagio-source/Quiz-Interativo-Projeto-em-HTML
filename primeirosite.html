@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Quiz Para Programadores</title>    
+        <meta name="description" content="Um quiz interativo para testar seus conhecimentos" >
+    </head>
+    <body>
+        <header>
+
+            <h1>Quiz Interativo para Programadores</h1>
+            <p>Teste seus conhecimentos em programação e veja qual pontuação você consgue fazer!!</p>
+            <hr>
+        </header>
+        <main> 
+            <!--Introdução-->
+            <section>
+            
+                <h2>🌟 Sobre esse quiz</h2>
+                <p>Esse <strong>Quiz</strong> foi desenvolvido para testar seus conhecimentos em programação, como <em>linguagens de programação, conceitos básicos</em>  e mais.</p>
+                <p>Você encontrará diferentes tipos de perguntas, incluindo múltipla escolha, texto e perguntas de data. <br>Desafie-se com este quiz!</p>
+                <p>Você poderá encontrar alguns acrônimos como <abbr title="HyperText Markup Language"> HTML </abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>, que são comumente usados em questões relacionadas ao desenvolvimento web.</p>
+              <hr>
+            </section>
+            <!--Pergunta 1: Múltipla Escolha-->
+            <section>
+                <h3>🌐 Questão 01. Qual é a linguagem usada para estruturar páginas web?</h3>
+                <form>
+                    <input type="radio" value="Python" id="p1a" name="pergunta1">
+                    <label for="p1a">Python</label><br>
+                    <input type="radio" value="HTML" id="p1b" name="pergunta1">
+                    <label for="p1b">HTML</label><br>
+                    <input type="radio" value="JavaScript" id="p1c" name="pergunta1">
+                    <label for="p1c">JavaScript</label><br>
+                    <input type="radio" value="Ruby" id="p1d" name="pergunta1">
+                    <label for="p1d">Ruby</label>
+                </form>
+            </section>
+            <!--Pergunta 2: Formato Texto-->
+            <section>
+                <h3>🖱️ Questão 02. Na URL http://www.google.com o trecho "google.com" é o _________</h3>
+                <form>
+                <input type="text" id="p2" name="pergunta2" placeholder="Digite aqui...">
+                </form>
+            </section>
+            <!--Pergunta 3: Senha-->
+            <section>
+                <h3>🔐 Questão 03. Escreva um exemplo de senha forte</h3>
+                <form >
+                    <input type="password" id="p3" name="pergunta3" placeholder="Digite aqui...">
+                </form>
+            </section>
+            <!--Pergunta 4: Entrada de Data -->
+            <section>
+                <h3>📆 Questão 04. Em que ano foi criado o HTML?</h3>
+                <form>
+                    <input type="number" placeholder="Digite o ano" id="p4" name="pergunta4">
+                </form>
+            </section>
+            <!--Pergunta 5: Seleção Múltiplas-->
+            <section>
+                <h3>💻 Questão 05: Quais dessas tecnologias são consideradas linguagens de programação?</h3>
+                <form>
+                    <input type="checkbox" id="p5a" name="pergunta5" value="JavaScript">
+                    <label for="p5a">JavaScript</label><br>
+                    <input type="checkbox" id="p5b" name="pergunta5" value="HTML">
+                    <label for="p5b">HTML</label><br>
+                    <input type="checkbox" id="p5c" name="pergunta5" value="Java">
+                    <label for="p5c">Java</label><br>
+                    <input type="checkbox" id="p5d" name="pergunta5" value="CSS">
+                    <label for="p5d">CSS</label>
+                </form>
+            </section>
+            <!--Pergunta 6: Upload -->
+            <section>
+                <h3>📁 Questão 06. Faça o upload de arquivo contendo código HTML:</h3>
+                <form>
+                    <input type="file" id="p6" name="pergunta6">
+                </form>
+            </section>
+            <!--Pergunta 7: Menu Suspenso -->
+            <section>
+                <h3> ⌨️ Questão 07. Selecione o atributo do input que define o seu tipo: </h3>
+                <form>
+                    <select name="pergunta7" id="p7">
+                        <option value="id">id</option>
+                        <option value="type">type</option>
+                        <option value="placeholder">placeholder</option>
+
+                    </select>
+                </form>
+            </section>
+            <!--Pergunta 8: Imagem-->
+            <section>
+                <h3>📷 Questão 08. Qual linguagem de programação é representado pelo logotipo abaixo?</h3>
+                <figure>
+                    <img src="./imagens/logo-java1.jpg" alt="Logotipo linguagem de programação"><br>
+                    <figcaption>Figura 01: Logotipo de uma linguagem de programação</figcaption>
+                </figure>
+                <input type="text" id="p8" name="pergunta8" placeholder="Digite aqui..." ><br>
+               <hr>
+
+            </section>
+            <!--Tabela de Pontuação-->
+            <section>
+                <h2>Tabela de Pontuação</h2>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Pontuação</th>
+                            <th>Avaliação</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td> 0-2 </td>
+                         <td>Não desista! Cada tentativa é uma oportunidade para aprender.</td>
+                    </tr>
+                     <tr>
+                        <td>3-4</td>
+                         <td>Você ainda precisa melhorar! Que tal estudar mais sobre programação?</td>
+                    </tr>
+                     <tr>
+                        <td> 5-6 </td>
+                         <td>Bom! Seu conhecimento em programação está satisfatório.</td>
+                    </tr>
+                     <tr>
+                        <td> 7-8 </td>
+                         <td>Perfeito! Você está muito bem informado sobre programação.</td>
+                    </tr>
+                    </tbody>
+                    <tfoot>
+                        <td colspan="2">  Boa sorte na próxima! Estude cada vez mais e seja nota mil!</td>
+                    </tfoot>
+                </table>
+                 <hr>
+
+            </section>
+            <!--Lista de Respostas-->
+            <section>
+                <h2>Verifique suas Respostas</h2>
+                <details>
+                    <summary>Clique para ver as respostas</summary>
+                    <ol>
+                        <li>HTML</li>
+                        <li>Domínio</li>
+                        <li>Ab12!lsQ5#qe</li>
+                        <li>1991</li>
+                        <li>JavaScript. Java</li>
+                        <li>Arquivo deve ter extensão .html</li>
+                        <li>type</li>
+                        <li>Java</li>
+                    </ol>
+                </details>
+                    <hr>
+
+            </section>
+            <!--Formulário de Feedback-->
+            <section>
+             <h2>Nos dê o seu feedback</h2>   
+                <form>
+                    <fieldset>
+                    <legend>Informações de Contato</legend>
+                        <label for="name">Nome:</label>
+                        <input type="text" id="name" name="name"><br>
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email"><br>
+                        <label for="comment">Comentários:</label><br>
+                        <textarea name="comment" id="comment" rows="4" cols="50" placeholder="Comente aqui">
+                        </textarea>
+                    </fieldset>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <!--Esse &copy é para aparecer o c na pag, alguns caracterez especiais precisam de um "codigo" como os de < que é &lt e o de > que é &gt-->
+            <p> &copy; Quiz de programação. Todos os direitos reservados. </p>
+            <p>Para conhecer mais sobre mim <a href="pag.html" target="_blank">clique aqui</a> .</p>
+        </footer>
+    </body>
+
+</html>
