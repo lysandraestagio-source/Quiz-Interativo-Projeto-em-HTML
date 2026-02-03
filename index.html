@@ -4,23 +4,20 @@
     <head>
         <title>Quiz Para Programadores</title>    
         <meta name="description" content="Um quiz interativo para testar seus conhecimentos" >
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <header>
 
             <h1>Quiz Interativo para Programadores</h1>
             <p>Teste seus conhecimentos em programação e veja qual pontuação você consgue fazer!!</p>
-            <hr>
         </header>
         <main> 
             <!--Introdução-->
             <section>
             
                 <h2>🌟 Sobre esse quiz</h2>
-                <p>Esse <strong>Quiz</strong> foi desenvolvido para testar seus conhecimentos em programação, como <em>linguagens de programação, conceitos básicos</em>  e mais.</p>
-                <p>Você encontrará diferentes tipos de perguntas, incluindo múltipla escolha, texto e perguntas de data. <br>Desafie-se com este quiz!</p>
-                <p>Você poderá encontrar alguns acrônimos como <abbr title="HyperText Markup Language"> HTML </abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>, que são comumente usados em questões relacionadas ao desenvolvimento web.</p>
-              <hr>
+                <p>Esse <strong>Quiz</strong> foi desenvolvido para testar seus conhecimentos em programação, como <em>linguagens de programação, conceitos básicos</em>  e mais. Você encontrará diferentes tipos de perguntas, incluindo múltipla escolha, texto e perguntas de data. Desafie-se com este quiz! Você poderá encontrar alguns acrônimos como <abbr title="HyperText Markup Language"> HTML </abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>, que são comumente usados em questões relacionadas ao desenvolvimento web.</p>
             </section>
             <!--Pergunta 1: Múltipla Escolha-->
             <section>
@@ -98,7 +95,6 @@
                     <figcaption>Figura 01: Logotipo de uma linguagem de programação</figcaption>
                 </figure>
                 <input type="text" id="p8" name="pergunta8" placeholder="Digite aqui..." ><br>
-               <hr>
 
             </section>
             <!--Tabela de Pontuação-->
@@ -133,7 +129,6 @@
                         <td colspan="2">  Boa sorte na próxima! Estude cada vez mais e seja nota mil!</td>
                     </tfoot>
                 </table>
-                 <hr>
 
             </section>
             <!--Lista de Respostas-->
@@ -152,7 +147,6 @@
                         <li>Java</li>
                     </ol>
                 </details>
-                    <hr>
 
             </section>
             <!--Formulário de Feedback-->
@@ -166,17 +160,19 @@
                         <label for="email">E-mail:</label>
                         <input type="email" id="email" name="email"><br>
                         <label for="comment">Comentários:</label><br>
-                        <textarea name="comment" id="comment" rows="4" cols="50" placeholder="Comente aqui">
+                        <textarea name="comment" id="comment" rows="4" cols="50" placeholder="Comente aqui"> 
                         </textarea>
+                        <button onclick="alert('FEEDBACK ENVIADO')">Envie Seu Feedback</button>   
                     </fieldset>
                 </form>
             </section>
         </main>
         <footer>
             <!--Esse &copy é para aparecer o c na pag, alguns caracterez especiais precisam de um "codigo" como os de < que é &lt e o de > que é &gt-->
-            <p> &copy; Quiz de programação. Todos os direitos reservados. </p>
-            <p>Para conhecer mais sobre mim <a href="pag.html" target="_blank">clique aqui</a> .</p>
+            <p class="p-footer"> &copy; Quiz de programação. Todos os direitos reservados. </p>
+            <p class="p-footer">Para conhecer mais sobre mim <a href="pag.html" target="_blank">clique aqui</a> .</p>
         </footer>
     </body>
+
 
 </html>
